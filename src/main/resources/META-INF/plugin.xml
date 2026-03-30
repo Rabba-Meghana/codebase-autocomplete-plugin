@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>org.jetbrains.plugins.template</id>
+    <id>com.github.rabbameghana.codebaseautocompleteplugin</id>
     <name>Context-Aware Multi-File Autocomplete</name>
     <vendor>Codebase Autocomplete</vendor>
     <description>RAG-powered codebase-aware autocomplete using Groq</description>
@@ -10,6 +10,6 @@
     <extensions defaultExtensionNs="com.intellij">
         <completion.contributor
             language="any"
-            implementationClass="org.jetbrains.plugins.template.CodebaseCompletionProvider"/>
+            implementationClass="com.github.rabbameghana.codebaseautocompleteplugin.CodebaseCompletionProvider"/>
     </extensions>
 </idea-plugin>
