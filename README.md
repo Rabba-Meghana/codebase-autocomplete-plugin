@@ -8,6 +8,11 @@ A self-hosted AI autocomplete plugin for JetBrains IDEs — similar to GitHub Co
 3. Generates completions using Groq LLM API with streaming
 4. Shows suggestions directly in the JetBrains completion dropdown
 
+## Architecture
+```
+Your Code → Kotlin Plugin → Python RAG Server → ChromaDB → Groq LLM → Completion
+```
+
 ## Stack
 - Kotlin + IntelliJ Platform SDK (IDE plugin)
 - Python + Flask (backend server)
