@@ -1,4 +1,4 @@
-package org.jetbrains.plugins.template
+package com.github.rabbameghana.codebaseautocompleteplugin
 
 import com.intellij.codeInsight.completion.*
 import com.intellij.codeInsight.lookup.LookupElementBuilder
